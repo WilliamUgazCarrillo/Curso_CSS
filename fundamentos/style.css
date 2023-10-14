@@ -1,0 +1,44 @@
+/* LA CASCADA
+ESPECIFICIDAD 1
+   - SELECTOR DE TIPO
+   - PSEUDO ELEMENTOS
+ESPECIFICIDAD 10
+   - SELECTOR DE CLASE
+   - SELECTOR DE ATRIBUTO
+   - PSEUDO ELEMENTOS
+ESPECIFICIDAD 100
+   - SELECTOR ID
+
+* ROMPES LA ESPECIFICIDAD CON !IMPORTAT ( pero es mala practica) *
+*/
+
+/* .title{
+    color: green;
+    font-family:verdana;
+
+}
+#title{
+    color: black;
+}
+h1{
+    color: blue;
+    color: blueviolet;
+    color: brown;
+    font-family: arial;
+} */
+body{
+    font-family: monospace;
+    color: blue;
+}
+
+.container{
+    color: green;
+    font-family: arial;
+    border: 2px solid greenyellow;
+    padding: 10px;
+}
+p{
+    color: black;
+    border: inherit;
+    padding: 10px;
+}

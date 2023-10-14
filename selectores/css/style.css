@@ -1,0 +1,47 @@
+/* Es un comentario, y no se visualiza*/
+
+/*selector de tipo
+es un selector de etiqueta*/
+
+body{
+    font-family: arial;
+
+}
+h2{
+    font-family: italic;
+    color: seagreen;
+}
+li{
+    font-size: 28px;
+    list-style: square;
+    
+
+}
+.subtitle{
+    text-align:center ;
+    background-color: teal;
+    color: bla
+}
+#title{
+    background-color: brown;
+    color: white;
+    padding: 20px 10px;
+    font-family: cursive;
+}
+
+/* SELECTORES CONBINADORES*/
+
+/* SELECTORES DESCENDIENTES*/
+
+.section h2{
+    background-color: rgb(30, 48, 210);
+}
+
+/* conbinador de hijos directos*/
+
+/* .section > ul{
+    background-color: yellow;
+    color: black;
+    padding: 20px 40px;
+
+} */
