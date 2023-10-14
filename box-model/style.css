@@ -1,4 +1,14 @@
 h1{
     color:white;
     background-color: seagreen;
+    padding: 10px;
+
+    /*define el ancho del elemento*/
+    width: 700px;
+    min-width: 100px;
+    height: auto;
+    
+    max-height: 500px;
+
+
 }
