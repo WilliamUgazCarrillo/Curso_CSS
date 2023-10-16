@@ -3,17 +3,25 @@ h1{
     background-color: seagreen;
     padding: 10px;
 
+    
     /*define el ancho del elemento*/
     width: 700px;
-    /* max-width: 100px; */
+/*     max-width: 900px;  */
 
-    /* min-width: 100px; */
+   /*   min-width: 100px;  */
 
     /* height: auto; */
-    /* min-height: 200px; */
+    /* min-height: 100px; */
         
-    /* max-height: 500px; */
-    /* overflow: hidden;
- */
+/*     max-height: 700px;
+    overflow: hidde */
+ 
+max-height: 400px;
+overflow: hidden; 
+
+border-color: purple;
+border-style:double;
+border-width: 10px;
+
 
 }
