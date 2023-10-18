@@ -5,7 +5,7 @@ h1{
 
     
     /*define el ancho del elemento*/
-    width: 700px;
+    width: 300px;
 /*     max-width: 900px;  */
 
    /*   min-width: 100px;  */
@@ -16,12 +16,20 @@ h1{
 /*     max-height: 700px;
     overflow: hidde */
  
-max-height: 400px;
-overflow: hidden; 
+.border{
+    border: 10px ridge steelblue;
+}
 
-border-color: purple;
-border-style:double;
-border-width: 10px;
+/*
+DOTTED: LA LINEA DEL BORDE SERA POR MEDIO DE PUNTOS
+DASHED: LA LINEA DEL BORDE SERA POR MEDIO DE GUIONES
+SOLID: LA LINEA SERA SOLIDA SIN NINGUNA ALTERACION
+DOUBLE: HABRA DOS LINEAS SOLIDAS COMO BORDE
+GROVE: DEFINE UN BORDE RANURADO EN 3D
+RIDGE: DEFINE UN BORDE ESTRIADO EN 3D
 
+
+
+*/
 
 }
