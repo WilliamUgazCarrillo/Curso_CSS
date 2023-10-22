@@ -1,5 +1,6 @@
 *{
     margin: 0;
+
 }
 
 body{
@@ -8,10 +9,24 @@ body{
 .main{
     background-color: steelblue;
     color: white;
-    margin-bottom: 30px;
+    /* margin-bottom: 80px; */
+   /*  border: 1px solid transparent; */
+    /* padding: 1px; */
+}
+.main-tittle{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .footer{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: slateblue;
     color: white;
 }
+ .cta{
+    font-weight: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: aqua;
+    
+}  
+  
