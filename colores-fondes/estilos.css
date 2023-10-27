@@ -1,6 +1,42 @@
 /* Color, backgrount-color */
-.title{
-    /* Palabras claves */
-    color: darkmagenta ;
-    color: #0000ff9c;
+/* body{
+    background-color: aquamarine;
+} */
+.main{
+    height: 400px;
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.253),
+        rgba(177, 96, 20, 0.397)
+      ),
+      url(./th.jpeg);
+      background-size: cover;
+      padding: 20px 40px;
+      color: #ffff;
+
+
+}
+
+.title {
+  /* Palabras claves */
+  /* color: chartreuse ;
+    color: darkmagenta;
+    https://htmlcolorcodes.com/es/
+     */
+
+  color: white;
+  /* border: 5px solid blue; */
+  background-color: rgba(65, 105, 225, 0.438);
+  
+  
+  /* background-repeat: no-repeat; */
+  /* background-image: url(./th\ \(1\).jpeg); */
+  
+  background-position: center;
+ /*  background-size: cover; */
+
+  height: 500px;
+}
+.main__paragraph{
+    color: black;
+    text-justify: 2rem;
 }
