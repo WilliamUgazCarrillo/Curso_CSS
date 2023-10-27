@@ -2,18 +2,81 @@
 /* body{
     background-color: aquamarine;
 } */
-.main{
-    height: 400px;
-    background-image: linear-gradient(
-        rgba(255, 0, 0, 0.253),
-        rgba(177, 96, 20, 0.397)
-      ),
-      url(./th.jpeg);
-      background-size: cover;
-      padding: 20px 40px;
-      color: #ffff;
+/* https://boxicons.com/ */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: ; */
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  /*   height: 400px; */
+  background-image: linear-gradient(
+      rgba(66, 65, 65, 0.89),
+      rgba(26, 25, 24, 0.596)
+    ),
+    url(./th.jpeg);
+  background-size: cover;
+  padding: 20px 80px;
+  color: #ffff;
+}
+
+.main__tittle {
+  /*    background-color: black; */
+  /* letter-spacing: 5px; */
+  /* word-spacing: 20px; */
+  /* overflow-wrap: break-word; */
+  /*     text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+ */
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.main__paragraph {
+  color: white;
+  text-align: justify;
+
+  line-height: 1.5;
+margin: 20px 0;
+  font-size: 20px;
+  /* 20px x 1.2 = 24px */
+}
+
+.main__paragraph--second {
+  font-weight: 200;
+  font-style: italic;
+  line-height: 2;
+}
+.main__cta {
+  background-color: orange;
+  padding: 20px 40px;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  
+  width: 200px;
+  text-align: center;
+  margin: 20px auto;
+  
 
 
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  margin: auto;
+  border-radius: 50%;
+
+  
 }
 
 .title {
@@ -26,17 +89,12 @@
   color: white;
   /* border: 5px solid blue; */
   background-color: rgba(65, 105, 225, 0.438);
-  
-  
+
   /* background-repeat: no-repeat; */
   /* background-image: url(./th\ \(1\).jpeg); */
-  
+
   background-position: center;
- /*  background-size: cover; */
+  /*  background-size: cover; */
 
   height: 500px;
-}
-.main__paragraph{
-    color: black;
-    text-justify: 2rem;
 }
