@@ -7,9 +7,20 @@ body{
     font-family: arial;
 
 }
-.main__tittle{
- font-size: 2rem;
+.main{
+ width: 50vw;
+ height: 50vh;
+
+ background-color: tomato;
 }
+.main__title{
+ font-size: 30 0px;
+ }
+ h1{
+    width: 50%;
+    background-color: black;
+ }
+
 .img{
     width: 300px;
  /* unidades abslutas
@@ -17,6 +28,6 @@ body{
  */  
 
  /* unidades relativas
-     vv, Vh
+     vw, Vh
  */
 }
