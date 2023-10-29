@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+.parent {
+  margin: 30px auto;
+  width: 350px;
+  padding: 1em;
+  background-color: indigo;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  text-align: center;
+  color: #fff;
+  padding-top: 1em;
+}
+.relative {
+  background-color: blue;
+  position: relative; /* desbloque 4 elementos */
+  z-index: 14;
+}
+.absolute {
+  background-color: steelblue;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  z-index: 16;
+}
+.fixed {
+  background-color: crimson;
+  position: fixed;
+
+  top: 80px;
+  left: 110px;
+  z-index: 12;
+}
